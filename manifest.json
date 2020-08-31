@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "PrarieLearnPlus",
+  "description": "Makes PrarieLearn better",
+  "version": "0.9",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
